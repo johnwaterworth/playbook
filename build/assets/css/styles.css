@@ -144,3 +144,14 @@ a.skip:hover {
   padding: 5px;
   display: inline-block;
 }
+
+li ul.children li {
+    display: none;
+}
+
+li.active + li ul.children li,
+ul.children li.active ~ li > ul.children li,
+li.active,
+ul.children.active li {
+    display: block;
+}
