@@ -65,8 +65,9 @@ When taking time off during client work, we discuss how it will impact the sched
 
 Sending communication outside of working hours may create an unintended sense of urgency with the recipients of your message. Try to avoid creating that urgency when possible. Unless actually urgent, you may ignore messages which you receive outside of working hours and handle them once you are back at work.
 
-#### Openness
-We believe it's best to be open about what we're doing. We encourage our clients to do the same, as does the [service manual](https://www.gov.uk/service-manual). We talk, blog and write about what we're doing, and we are open about as much as we can.
+#### Openness and confidentiality (dxw digital)
+
+dxw digital believe it's best to be open about what we're doing. We encourage our clients to do the same, as does the [service manual](https://www.gov.uk/service-manual). We talk, blog and write about what we're doing, and we are open about as much as we can.
 
 We release [code](http://www.github.com/dxw), publish our [contracts](http://www.github.com/dxw/contracts) and things like this playbook and talk with people about what we're up to because we believe that we'll ultimately have more opportunities to work, grow and improve than if we kept everything to ourselves.
 
@@ -77,9 +78,25 @@ However, there are some things that we must keep private.
 - We are sometimes sent documents that are [protectively marked](#protective-marking-scheme), and we have a 
 scheme of our own. Information in these documents is confidential.
 - Information about work that is currently being procured (whether we are bidding or not) and any other information that could damage the commercial interests of a client or supplier
+- Anything to do with the work of dxw cyber: see below.
 
 If you want to talk about something, and you're not sure if it's confidential, play it safe: ask a colleague.
 
+#### Openness and confidentiality (dxw cyber)
+
+dxw cyber's work is usually more sensitive than dxw digital's. We still value openness and believe that it is important, but we have less freedom to talk about our work. Our clients expect us to keep almost everything about our work with them private.
+
+As with dxw digital, we also release [code](http://www.github.com/dxwcyber), publish our [contracts](http://www.github.com/dxw/contracts) and use this playbook. But we must tread with more care, to ensure that we maintain our obligations to clients not to release information that could compromise their systems or cause them embarassment.
+
+As a result, we take the opposite approach to dxw digital. We treat everything about our work as private and confidential, with these exceptions:
+
+- General discussions about tools, techniques, approaches and methodologies
+- The nature of our roles and day-to-day work
+- The purpose, mission, vision and values for dxw cyber, and the ways we get things done
+
+However, even with these exceptions, there is an overriding principle that client information must be kept confidential. For example, if talking about a particular attack technique could allow someone to infer the identity of a client, we would not discuss it in public.
+
+In addition, we take measures to ensure that we don't accidentally expose confidential information. For more information about this, talk to your team lead.
 
 ### Changes to this document
 This playbook is a collaborative effort. If you spot something that's wrong, feel free to hop in and correct it. But remember that this playbook is the result of our conversations about how we should do things, not a substitute for one. So don't make changes unless they reflect our shared agreement about how things are going to be done.
