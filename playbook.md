@@ -274,25 +274,26 @@ Throughout a sprint, delivery managers ensure that agreed process is followed, o
 Outside of these session and standups, they maintain regular communication with the client and the delivery team to respond quickly to challenges as they arise. If priorities change during a sprint, the delivery manager works with the client to understand and plan for the impact of the change.
 
 
-## Products
+## Hosting and supporting services
 
 ### GovPress
-GovPress is a product we built to host most of the WordPress websites we build. It also has some things on it that are hosted and maintained by other people.
+GovPress is dxw's hosting platform which hosts the WordPress websites we build for the public sector. 
 
-We built GovPress because clients were frequently asking us for hosting with high availability and high security, but didn't have enough budget to be able to build an appropriate hosting platform for their service. This is fair enough, because they shouldn't have to. We built GovPress to meet this need, and it is now used by most of our clients.
+We built GovPress because our clients were frequently asking us for secure, scalable and highly available hosting, but didn't have enough budget to be able to build an appropriate hosting platform for their service. This is fair enough, because they shouldn't have to. We built GovPress to meet this need, and it is now used by most of our clients.
 
-Read more about it at [www.govpress.com](https://www.govpress.com).
+You can read more about GovPress at [www.govpress.com](https://www.govpress.com).
 
-## Tickets
+We're in the process of building a new container-based hosting platform which will be able to support services that aren't built in WordPress. Watch this space.
 
-### Basics
-We use [Zendesk](https://dxw.zendesk.com) to manage support requests. If you're just getting started, the [Zendesk Introduction](https://support.zendesk.com/hc/en-us/articles/203921213) is your first port of call. After you've read that, ask someone to sit with you and talk you through it, to answer any questions.
+### Support helpdesk
 
-Other than for projects you're currently sprinting on, all requests for us to do things must come via tickets. We use tickets to manage requests in order to:
+The dxw Technical Operations team build, manage and run GovPress, as well as provide first-line support.
 
-* Keep track of all the things we need to do, and what state they're in;
-* Have a record of the changes we're asked to make;
-* Ensure that we only accept change requests from people who are authorised;
+We use [Zendesk](https://dxw.zendesk.com) to manage support requests. Any incidents, requests for us to fix a problem or make a change to a site must come to us via Zendesk as a ticket. We use tickets to manage requests in order to:
+
+* Keep track of all the things we need to do, and what state they're in
+* Have a record of the changes we're asked to make
+* Ensure that we only accept change requests from people who are authorised
 * Generate data about how much staff time is spent on each client's issues.
 
 If a client asks us to do something in person, on the phone or via email, we politely ask them to visit http://dxw.zendesk.com/ instead, and submit a ticket there. This is so that:
@@ -302,130 +303,123 @@ If a client asks us to do something in person, on the phone or via email, we pol
 * We can formally track the changes that people ask for, by documenting them in tickets that we can look at later if need to
 * We can be sure that requests are coming from people who are authorised to submit them
 
-For these reasons, we do not do any work at all on a client site unless we are on a sprint or working on a relevant ticket. This is really important.
+For these reasons, we do not do any work on a client website or service unless we are working on a development sprint or on a relevant ticket. We think this is really important.
 
-### Support sprints
-We work on tickets by having a developer on a support sprint. Developers are assigned to support for two weeks at a time and work on tickets for the duration of the sprint. If there is a ticket they need another developer to help with, this work is scheduled in.
+#### Support sprints
+We work on tickets by having a developer on a support sprint. Developers are assigned to support for two weeks at a time and work on tickets for the duration of the sprint. If there is a ticket they need another developer to help with, this work is scheduled.
 
-### Client experience (AKA: ticket principles)
+#### Client experience (AKA: ticket principles)
 
-#### Be responsive
-Clients expect us to deal with their issues promptly. But they understand that this isn't always possible. They are generally forgiving of the fact that we're sometimes busy, and they understand that some issues are complex and require long investigations.
+##### Be responsive
+Clients expect us to deal with their issues promptly, but they understand that this isn't always possible. They are generally forgiving of the fact that we're sometimes busy, and they understand that some issues are complex and require long investigations.
 
 The thing most clients value above all else is being kept informed of what is going on. The first quality of a good ticket experience is responsiveness: we keep clients informed of what we're doing, even if there hasn't been much progress.
 
-#### Stick to your commitments
+##### Stick to your commitments
 It's really important that we do what we say we'll do, and don't promise things we can't deliver. If we're unable to deal with a ticket in good time and leave an update saying we'll work on it tomorrow, we must meet that commitment.
 
 It is doubly bad to fail to meet a commitment and not say anything about it. Responsiveness is always the priority. So if for some reason we couldn't do what we said we'd do, we always respond to say so.
 
-#### Make a good impression
+##### Make a good impression
 In tickets as in all things, we are mindful of dxw's [values](#values).
 
-Most clients' routine contact with us is via support tickets. So it's vital that our clients' experience of the support system is a good one, and also that they have a positive experience with us personally.
+Most clients' routine contact with us is via support tickets, so it's vital that our clients' experience of the support system is a good one, and also that they have a positive experience with us personally.
 
-So, we are always considerate, and think about what style of response is best. For example, technical clients may appreciate short, information-dense responses, while non-technical clients might perceive that style as rude or dismissive.
+We are always considerate, and think about what style of response is best. For example, technical clients may appreciate short, information-dense responses, while non-technical clients might perceive that style as rude or dismissive.
 
 In general:
 
 * We are personable, friendly and helpful
-* If things look like they're going to get difficult, or the client seems unhappy, we are honest, and assume good faith
-* If appropriate, we are apologetic. If we screw something up, we take responsibility and apologise. If the client seems very upset, we let a delivery manager know.
+* If things look like they're going to get difficult or the client seems unhappy, we are honest and assume good faith
+* If we screw something up, we take responsibility and apologise. If the client seems very upset, we let a delivery manager know.
 * If we do become annoyed or frustrated by a ticket, we respond later or speak to a DM about reassigning it.
 
-
-#### Don't over-deliver
-Of course, every client would like us to go the extra mile to solve their problem. But they also understand that to do that for them would mean bad service for another client - or that we never get to their issue, because we're too busy gold-plating the solution to someone else's.
+##### Don't over-deliver
+Of course, every client would like us to go the extra mile to solve their problem. But they also understand that to do that for them would mean bad service for another client, or that we never get to their issue, because we're too busy gold-plating the solution to someone else's.
 
 While we do everything we can to make sure the client is happy with our solution, we are also mindful of what's practical. We don't do serious bits of development work on tickets, or trial new approaches. We don't play with new tools or sink hours into interesting bugs. We set those things aside, and do them later.
 
 The main purpose of a ticket is to take some action that solves the problem, as quickly as possible. Generally speaking, we do the most time-efficient thing that we can. Of several potential solutions that solve the problem, assuming none is a bad one, we do the one which can be implemented the most quickly.
 
 
-### Workflow
-All tickets that arrive on the helpdesk go through a number of stages in the course of being worked on.
+#### Workflow
+All tickets that arrive through the support helpdesk go through a number of stages in the course of being worked on.
 
 
-#### New tickets
+##### New tickets
 
 When a new ticket arrives, it is automatically assigned to the Front-line Support group. All agents in this group receive an email to alert them.
 
-The Front-line Support group is monitored by whoever in operations is on call. It's their responsibility to review tickets as they arrive, and decide what to do with them. If they can deal with the issue, or if can complete an [initial investigation](#initial-investigation) into the problem, they do so.
+The Front-line Support group is monitored by whoever in the Technical Operations team is on call. It's their responsibility to review tickets as they arrive, and decide what to do with them. If they can deal with the issue, or if can complete an [initial investigation](#initial-investigation) into the problem, they do so.
 
-If not, they will assign it to the developer on support. Sometimes tickets are assigned to a delivery manager if it looks like chargeable work or requires a conversation with the client.
+If not, they will assign it to the developer on support. Sometimes tickets are assigned to a delivery manager if it requires a conversation with the client or looks like chargeable work. 
 
 As tickets are arriving, we also think about whether they might be related to other tickets that we've already received. For example, if we get several tickets from different clients about similar-sounding issues, that might be indicative of a wider problem. Or, if a single client sends lots of tickets within a short time, it might be wise to assign a delivery manager to oversee them all and ensure that the requests make sense when considered as a group.
 
 
-#### Assignments
+##### Assignments
 
 No matter what group you're in, when a ticket is assigned to you, you will receive an email. The ticket will also appear on your home screen in Zendesk.
 
 When you are assigned a ticket, it is your responsibility to review it and take action. You must either solve the ticket or pass it on to someone who can.
 
-A wide variety of issues can be reported through the helpdesk, so it's not possible to give an exhaustive guide on how to solve tickets. But there are some articles in the [Help Centre](https://dxw.zendesk.com) which may be useful. These are written for clients, but contain lots of useful information.
+A variety of issues can be reported through the helpdesk, so it's not possible to give an exhaustive guide on how to solve tickets. But there are some articles in the [Help Centre](https://dxw.zendesk.com) which may be useful. These articles are written for clients, but contain lots of useful information.
 
-It's important to be proactive about solving tickets. As soon as we receive a ticket, the clock starts ticking: clients expect us to be [responsive](#responsiveness-1) and deal with their problems promptly.
+It's important to be proactive about solving tickets. As soon as we receive a ticket, the clock starts ticking. Clients expect us to be [responsive](#responsiveness-1) and deal with their problems promptly. If we're not sure how to proceed with a particular ticket, we don't just let it sit there, we ask for help from another member of the team.
 
-If we're not sure how to proceed with a particular ticket, we don't just let it sit there: we ask for help. If we know what to do but don't have time to get it done, we get advice from a delivery manager.
+Whenever we do anything at all related to a given ticket, we update it to let the client know. Even if it's just to say that we haven't managed to figure out what the problem is yet. If we're replying to a ticket just to update the client, but we still need to take some action, we set its status to Open. The same applies if you are reassigning the ticket to another agent.
 
-Whenever we do anything at all related to a given ticket, we update it to let the client know - even if it's just to say that we haven't managed to figure out what the problem is yet.
+If we have taken some action and are now waiting for the client to reply, we set the ticket's status to Pending. This will remove it from the list of tickets (until they respond).
 
-If we're replying to a ticket just to update the client, but we still need to take some action, we set its status to open. The same applies if you are reassigning the ticket to another agent.
-
-If we have taken some action and are now waiting for the client to reply, we set the ticket's status to pending. This will remove it from the list of tickets (until they answer).
-
-#### Pending tickets
+##### Pending tickets
 
 Pending tickets are those which we have updated with a question or a potential solution, and which now need to be updated by the client before we can proceed.
 
 Pending tickets will not appear in the list of tickets or in the views for the Front-line and Escalated groups, allowing us to focus on tickets which still need your action.
 
-Tickets which are pending will also be closed automatically after a set period of time if the client does not respond. They will get reminders before this happens. If a pending ticket you are assigned to is closed because the client didn't reply in time, both you and the client will get an email, so you can open it again if you think that's best.
+Tickets which are Pending will also be closed automatically after a set period of time if the client does not respond. They will get reminders before this happens. If a Pending ticket you are assigned to is closed because the client didn't reply in time, both you and the client will get an email, so you can open it again if you think that's best.
 
-Because pending tickets will be auto-closed if there's no reply, it's also important to check and set the *How much work was this?* field to give an approximation of the total time the team spent on the issue. Or, select *chargeable* if it's a ticket we'll invoice for.
+Because Pending tickets will be auto-closed if there's no reply, it's also important to check and set the *How much work was this?* field to give an approximation of the total time the team spent on the issue. Or, select *chargeable* if it's a ticket we'll invoice for.
 
-When assigning a ticket to another agent, we do not set it to pending, otherwise they probably won't see it.
+When assigning a ticket to another agent, we do not set it to Pending, otherwise they probably won't see it.
 
 
-#### Solving tickets
+##### Solving tickets
 
-If we believe that we have solved the issue the client has raised, we submit it as solved.
+If we believe that we have solved the issue the client has raised, we submit it as Solved.
 
-If it's something the client needs to check and confirm as fixed, we submit the ticket as pending until they reply, and mark it solved if they say everything's ok.
+If it's something the client needs to check and confirm as fixed, we submit the ticket as Pending until they reply, and mark it Solved if they say everything's ok.
 
-If a client replies to a solved ticket, it will be reopened. Sometimes clients reply just to say thanks. If so, we set it back to solved without comment.
+If a client replies to a Solved ticket, it will be reopened. Sometimes clients reply just to say thanks. If so, we set it back to Solved without comment.
 
-It is important that solved tickets contain some record of what we did. This is usually not difficult, as your communication with the client will describe what actions you've taken. But that's not always the case.
+It is important that Solved tickets contain some record of what we did. This is usually not difficult, as your communication with the client will describe what actions you've taken. But that's not always the case.
 
 Some tickets are not raised by clients, but are raised by another agent or by an automated process. In this situation, it's still important that tickets record what actions we took, so we don't close them without a good update. We always leave a couple of sentences to say what we did, even if it was minor.
 
-Before solving a ticket, we make sure the *How much work was this?* is set to a sensible value.
-
-#### On-hold tickets
+##### On-hold tickets
 
 Sometimes a ticket does not need any action imminently but is nonetheless an important issue which we must keep track of. Renewing certificates and domain names in good time is a good example of this kind of task.
 
-In these situations, we turn the ticket into a task and give it a due date, and then set it to on-hold. The helpdesk will automatically reopen the ticket ten days before its due date, and it'll show back up in your list of open tickets.
+In these situations, we turn the ticket into a task and give it a due date, and then set it to On-hold. The helpdesk will automatically reopen the ticket ten days before its due date, and it'll show back up in your list of Open tickets.
 
-Only tasks with due dates should be made into on-hold tickets.
+Only tasks with due dates should be made into On-hold tickets.
 
 
-### Deciding what to work on
+#### Deciding what to work on
 
 You are free to work on whichever of your assigned tickets you think is most important. But there are some important things to bear in mind.
 
 
-#### Triage
+##### Triage
 
 We all have limited time. We try to spend it wisely. All other things being equal, it is better to spend half an hour solving each of four tickets than to spend two hours on one issue.
 
 
-#### Procrastinating
+##### Procrastinating
 
 We don't procrastinate about dealing with difficult tickets. Most of our SLA breaches happen when a complex ticket arrives and is assigned to a busy person. In this situation, it's only natural that we prefer to do other work first. But it is vital that we don't let the hard tickets gather dust while we crack through the easy ones, so we try to be mindful of this bias.
 
-#### Priority
+##### Priority
 
 The priority of tickets is important, and we must be biased towards dealing with more urgent tickets before less urgent ones.
 
@@ -437,7 +431,7 @@ Zendesk knows each ticket's age, the time it's been since it was updated, its pr
 
 Each ticket's priority should be reviewed regularly: whenever we update a ticket, we check the priority to make sure it's still right.
 
-### Initial investigation
+#### Initial investigation
 
 When we pick up new tickets or are assigned one where no investigation has yet happened, we complete an initial investigation. If you don't have the right skills for the issue or are not familiar enough with the project to know what to do, reassign the ticket to a more appropriate agent, or consult a delivery manager.
 
