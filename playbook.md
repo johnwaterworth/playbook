@@ -1,4 +1,4 @@
-## Purpose
+# Purpose
 For most of dxw's life, we've been small enough that it's been easy for everyone to know what's going on and how to get things done, just by listening to what's going on in the office. The team is now big enough that we need a reference for the way we do things. A place to capture the changes we agree to make. Something canonical that tells us what the current "right way" to do things is.
 
 We'll always iterate on this document, because we'll always explore better ways to get things done. But now, when we've found one, it'll be recorded here. And once it is, it'll be the way we do things until we find something better, and write it down.
@@ -8,9 +8,9 @@ This document lives in Github. Anyone on the team can edit it, and should do so.
 Finally, this document is inspired by [Thoughtbot's excellent playbook](https://playbook.thoughtbot.com/). Thanks, Thoughtbot!
 
 
-## Working at dxw
+# Working at dxw
 
-### Why are we all here?
+## Why are we all here?
 The web has revolutionised the way society works. Most of society has reaped the benefits of digital technology, but most public services lag behind. As a result, they are often expensive to build and run, and hard for people to use.
 
 Since dxw was founded in 2008, a lot of things have become better. The Government Digital Service has changed the conversation about how and why services get built, and many are much better as a result. But the challenge facing the public sector is not one that any organisation could tackle alone.
@@ -23,30 +23,30 @@ Ultimately, we want to help the public sector to spend less on technology so tha
 
 dxw helps public sector teams to make good technology decisions and build better services.
 
-### Values
+## Values
 We think that it's very important to have a talented team if we're going to succeed. But just as important as raw talent is our ability to work well together. These are the values that we aspire to, and help each other to achieve.
 
-#### Helpful
+### Helpful
 We are helpful, useful and expert. We give practical and pragmatic advice to each other, and to our clients.
 
-#### Honest
+### Honest
 We are honest, trustworthy and straightforward. We give plain-spoken, frank, accurate feedback and advice, and we never mislead or obscure the issue at hand.
 
-#### Positive
+### Positive
 We are positive, cheerful and supportive. Even in crisis, we stay optimistic. We [assume good faith](https://en.wikipedia.org/wiki/Wikipedia:Assume_good_faith) and offer constructive challenge.
 
-#### Curious
+### Curious
 We are curious, diverse and creative. We help each other to learn and improve and we're sensitive to each others' needs. We love technology and finding new ways to solve problems.
 
-#### Determined
+### Determined
 We are determined, discerning and motivated. We believe in high standards, we enjoy doing things properly, and we're loath to settle for less.
 
-#### Reliable
+### Reliable
 We are reliable, consistent and committed. We make every effort to live up to each others' expectations, and to exceed the expectations of our clients.
 
-### Some guiding principles
+## Some guiding principles
 
-#### Agile mindset
+### Agile mindset
 
 At dxw, we think that agile is a mindset that’s accepting of change, curious about trying new approaches to make things better, and values careful planning in short chunks.
 
@@ -56,7 +56,7 @@ Our teams frequently experiment with different tools and techniques so we can im
 
 We recognise the importance of planning, compliance and governance, so we work those activities into the process, every step of the way.
 
-#### Sustainable pace
+### Sustainable pace
 We work at a sustainable pace. We estimate work and schedule it conservatively, and set realistic expectations with clients about the pace of delivery.
 
 This doesn't mean that we don't work hard. Being productive is a vital part of maintaining the trust that our clients give us, and it's important not to let them down.
@@ -65,7 +65,7 @@ When taking time off during client work, we discuss how it will impact the sched
 
 Sending communication outside of working hours may create an unintended sense of urgency with the recipients of your message. Try to avoid creating that urgency when possible. Unless actually urgent, you may ignore messages which you receive outside of working hours and handle them once you are back at work.
 
-#### Openness
+### Openness
 We believe it's best to be open about what we're doing. We encourage our clients to do the same, as does the [service manual](https://www.gov.uk/service-manual). We talk, blog and write about what we're doing, and we are open about as much as we can.
 
 We release [code](http://www.github.com/dxw), publish our [contracts](http://www.github.com/dxw/contracts) and things like this playbook and talk with people about what we're up to because we believe that we'll ultimately have more opportunities to work, grow and improve than if we kept everything to ourselves.
@@ -81,32 +81,32 @@ scheme of our own. Information in these documents is confidential.
 If you want to talk about something, and you're not sure if it's confidential, play it safe: ask a colleague.
 
 
-### Changes to this document
+## Changes to this document
 This playbook is a collaborative effort. If you spot something that's wrong, feel free to hop in and correct it. But remember that this playbook is the result of our conversations about how we should do things, not a substitute for one. So don't make changes unless they reflect our shared agreement about how things are going to be done.
 
 If you are making a substantial change (perhaps following a team conversation) please make it in a branch and submit a pull request. Then ask someone else who was in the conversation to review and merge it. When we review a pull request on the playbook, we check that it accurately captures the conversation, that it doesn't contain anything private, and that it's well written and free of typos, incorrect spellings and other minor errors.
 
 
-## Building services
+# Building services
 
-### Client experience
+## Client experience
 
-#### Responsiveness
+### Responsiveness
 One of the things our clients value most is responsiveness. Many will be under pressure to get things done quickly, and will be expected by their colleagues and managers to know what is going on at any given time, and to manage us effectively. If we're not quick to respond to their queries, questions and concerns, we reduce their ability to maintain the confidence of their colleagues.
 
 So, when we are on sprints, we endeavour to respond to our client quickly. It's not always possible to resolve a problem or get an answer quickly, but that shouldn't stop us from acknowledging a message or giving regular updates. As with [tickets](#be-responsive), being responsive to a query is just as important as giving a definitive answer.
 
-When we get enquiries for clients who are not currently sprinting, we still answer as quickly as we can - but clients who are sprinting come first.
+When we get enquiries for clients who are not currently sprinting, we still as quickly as we can - but clients who are sprinting come first.
 
 We also expect most communication with clients to happen with the project's delivery manager. We don't hide anyone on the team from the client, and they are free to ask questions of whomever they wish. But if you're a developer and you get a question that's really for a DM to answer, refer the client on. This will help to keep you productive, and will help the client understand who on the dxw team does what.
 
 
-#### Progress in every sprint
+### Progress in every sprint
 Delivering projects in an agile way requires trust between everyone involved in delivery. Clients must have confidence in us for the process to work. One of the quickest ways to lose confidence is to finish sprints with little to show for the effort we've made. In all of our work, we maintain a clear relationship between sprints and their associated costs, and visible, tangible changes to the service we're working on.
 
 This means that we structure work so that visible progress and supporting back-end work happens side-by-side. We don't work on back-end or supporting code first, and then bolt front-ends on later. We make sure that what we're doing is visible to our clients as early as possible. This helps us to maintain trust, and gives us more opportunities to learn what works and what doesn't by involving users of the service in testing.
 
-#### Involvement
+### Involvement
 We involve clients in every aspect of our work. Projects work best when everyone involved feels part of the same team. So, other than the internal retro, there's no aspect of our process that we do without client involvement.
 
 In particular, we should go out of our way to involve clients when decisions are being made about design, user needs, or strategy (among other things). We're not here to make decisions for our clients: we're here to help them to make good decisions themselves. So we shouldn't make decisions about important things without them.
@@ -114,121 +114,67 @@ In particular, we should go out of our way to involve clients when decisions are
 This isn't to say that we require clients to participate in everything. Clients and projects have varying needs, so this aspect of the process is flexible. But we always make the option of involvement available. If they want to join daily standups as well as participate in sprint planning, they can.
 
 
-### The structure of a project
-At dxw we follow the Government [Service Manual](https://www.gov.uk/service-manual) and our projects move through discovery, alpha, beta, live and retirement phases. 
+## The structure of a project
+We structure projects along the lines described by the [GDS Service Manual](https://www.gov.uk/service-manual): discovery, alpha, beta, live and retirement. It's worth having a browse of the service manual if you're not familiar with it, as it is the main guide for how digital work in the public sector should be done.
 
-One change to our approach is the addition of an **Inception** phase at the start of a project, before discovery. We think this phase is necessary to set up a single team with our clients, establish ways of working, and get everyone behind a shared vision and goals for the project. 
+One change to our approach is the addition of an **Inception** phase at the start of work. The main purpose of a discovery phase is to identify and document user needs. But sometimes this work is carried out on the assumption that a given service is definitely the right solution to the problem. The inception phase gives us a structured way to ensure that this isn't the case.
 
-At a high level, we believe the purpose of each phase is:
+At a high level, the purpose of each phase is:
 
-**Inception**: Establish a single, multi-displinary team with the client. Bring everyone together for a kick-off session to agree principles for how we'll work together. Run a roadmapping workshop to define a set of goals and vision for the project. The roadmap also clearly defines dependencies and risks, and a list of things to learn or prove to form the basis of a user research plan
+**Inception**: Talk to staff, leaders and stakeholders. Agree what the problem is, establish an initial strategy and working principles to help solve it
 
-**Discovery**: Carry out research to define users and understand their needs. Document findings, user needs and user journeys. Sometimes this phase also involves conducting technical discovery work to look at different technologies and solutions that might meet users' needs
+**Discovery**: Talk to users, do research. Identify and document user needs, decide how to measure success
 
-**Alpha**: Translate user needs into prototypes. Test prototypes with users and iterate them based on feedback. We also use the alpha phase to carry out technical spikes and experiments, and to make initial technology and service design decisions
+**Alpha**: Prototyping, technical spikes and experiments. Make initial technology and service design decisions
 
-**Beta**: Build a working version of the service, based on what we learnt in alpha. Carry out regular usability testing of the service with users, and launch a minimum viable product. Make plans for supporting the service and continue iterating it.
+**Beta**: Design, development, usability testing. Build and launch a minimum viable product and learn how to scale it
 
-**Live**: Operate the service, carry out regular user research and continue to iterate it. If new user needs are identified, we develop the service and launch new features to meet them.
+**Live**: Operate a new service, learn what works, continue to design and develop. Iteratively improve a live service
 
-**Retirement**: Work out how user needs will be met without your service. Provide help and guidance, archiving, and links to other services. Don't leave people in the lurch; never let a link die
+**Retirement**: Work out how user needs will be met without your service, provide help and guidance, archiving, links to other services. Don't leave people in the lurch; never let a link die
 
-We don't always do all these phases for every client. Often, we'll only be involved in a couple. But we can help with all or any of them, depending on our clients' needs.
-
-
-### Research
-
-#### Principles
-
-At dxw, we believe in making decisions based on evidenced user needs. As researchers, we help multidisciplinary teams learn about users and recognise the value of user research. There is no single right way of doing this, but as a team, we need to stay unified in the way we approach, do, and talk about research.
-
-Our principles are not rules. They exist to guide our work and keep us improving as a team, working with, not for our clients.
-
-**1. Review, but don’t reuse**<br/>
-Clients don’t always have enough time or money to commission user research. Often, they have user research outputs from previous work that they’d like us to use. We do our best to rely on whatever evidence is available, while also making the case that no two users or projects are the same; that user research is never complete; that user needs evolve and findings become outdated.
-
-We advise clients on the value further user research will bring, and highlight where the findings may allow them to spend their budget more effectively.
-
-**2. Be methodical, not uniform**<br/>
-We follow research and design best practice. We define problems, agree on clear research questions and adjust what we do accordingly. We carefully evaluate how different research activities will help us uncover different aspects of the needs and behaviours.
-
-In practice this means we don’t do self-indulgent research and don’t use methods just because they're well-known. We use best approach for the question at hand. We use well established (and sometimes less exciting) methods, but we're not reluctant to venture outside of our comfort zone.
-
-**3. Share often, stay flexible and move forward**<br/>
-We work in an agile way, so we don’t wait until the end of the project to share research outcomes. We ensure that the project team can use research findings as soon as possible while not jumping to conclusions. This means we carefully balance rigorous analysis with light-touch insight.
-
-Either way, we show clear links between research, analysis and the changes we make to products and services. We try to make sure we collect the right data, share it often, and use it to decide what to do next.
-
-Sometimes there aren’t clear links, our findings strongly contradict project goals, or we realise that we’re not learning anything new. It’s important to spot this quickly, reassess our approach, and adjust what we do.
-
-**4. Be honest, even if the truth hurts**<br/>
-There are times when our clients have ingrained assumptions about users, their needs and what the service or product should be. Sometimes those assumptions are validated through our research, other times they aren't. We may uncover something that is unexpected, unpleasant, challenging or politically inconvenient. 
-
-It is our responsibility as researchers not to withhold such insights, but to communicate them with our clients carefully to help them make the best decision possible.
-
-**5. Take ethics seriously**<br/>
-Ethical user research means that we conduct research that is informed, voluntary, and responsible. This extends throughout the entire process of research, from the way we recruit, to the way we share, store and use our data, and everything in between.
-
-**6. Challenge yourself to do great work. It's better than formal reviews**<br/>
-We challenge ourselves by including others and reflecting on our work continuously. We plan together, bring in observers and co-analyse as much as possible. We push ourselves by keeping up to date with the research and design community and embracing experimentation.
-
-We also reflect on our work frequently and share stories about our work experiences with the team. We ask for advice when we need it, and we help each other deal with impostor syndrome.
-
-**7. Share the unknowns and admit limitations**<br/>
-User researchers are not fortune tellers. We’ll never have the full story or be completely certain. Our goal is to understand enough to be able to make informed decisions. Doing user research well means that we acknowledge limitations and share unknowns when we suggest possible improvements to the wider team.
-
-**8. Be bold. Show what’s important first**<br/>
-When presenting, we think about the people in the room. Senior stakeholders who aren't involved in the day-to-day running of the project have less time to dig into detail. They’re interested in findings that will allow them to make a decision. Others like product managers and user researchers will need to understand our work in detail.
-
-We write and structure outputs the same way. Use [inverted pyramid writing](https://www.thoughtco.com/definition-of-inverted-pyramid-2073770). We make sure our content is right for the audience and not monotonous.
-
-**9. Build confidence in user-centred design**<br/>
-We share our findings in ways that capture and connect people. Showing the value of user research helps others to feel involved, creates a sense of shared ownership, and helps maintain momentum. Good research can help people feel emotionally invested in outcomes of the project, making them feel empowered to help deliver it well. 
-
-We recognise that one size doesn’t fit all, but we diverge from pre-defined deliverables. Instead, we focus on project outcomes and create outputs that will help teams inform their decisions and drive their service or product forward. 
-
-Sometimes a formal report or a set of personas may be useful, but in most cases there are more effective ways to communicate our findings. Sometimes it's something tangible like a slide deck or a trello board of user needs, and sometimes it's something more immersive like a room of artefacts to walk through or an ideation workshop. 
-
-**10. Be dispensable. It's about the users and the team, not you**<br/>
-User researchers shouldn’t be gatekeepers. We’re not here to advocate for users. We’re here to help teams understand and access their users. We make sure our data is open, structured, and accessible to non-researchers so that everyone can look for answers and access insight without us. 
-
-We openly share what we do, how we do it and why that’s important. We create opportunities for our teams and clients to get involved with the hope that they'll carry on with users in mind even without user researchers on the project.
+We don't always do all these stages for every client. Often, we'll only be involved in a couple. But we can help with all or any of them, depending on our clients' needs.
 
 
-### Development sprints
-We break down projects into two-week sprints. Throughout a project we maintain a product backlog, refine user stories based on what we learn and carry out development work to meet the user needs that have been identified.
+## Research
+At dxw, we do as much work as we can on the basis of user research findings, because we believe in making decisions based on evidenced user needs. The primary method we use to conduct research is to talk to users (which includes staff) about their needs.
 
-Every project, client and team is different. But, there are some common approaches we take to all projects. 
+Not all clients have the willingness or resources to be able to commission research. In these situations, we do our best to rely on whatever evidence is available, while also making the case to their client that any research is better than none, and that research will allow them to spend their budget more effectively.
 
-On the first day of a sprint we facilitate a planning session and finish sprints with a show and tell and retrospective. These sessions involve the whole team, including developers, user researchers, designers and delivery leads, as well as the product owner and other members of the client team. 
+We don't only do research in discovery phases. We do our best to ensure that research is built into projects at every stage.
 
-#### Communicate Progress
-Every morning a delivery lead facilitates a standup. Standups last 5-10 minutes and are for the team to discuss what they're working on that day and whether there are any problems or dependencies affecting them. If the team is not co-located with a client, standups happen over a video-call. 
 
-During the sprints a delivery lead will share a week note, usually on a Friday, with everyone involved or interested in the project. The note will include a brief summary of what the team have done that week, what is planned for the following week and highlight blockers, dependencies or things the team is thinking about too.
+## Development sprints
+We work in sprints, which are fixed-length periods of delivery work with a particular team.
 
-At the end of each sprint the team run a show and tell. This is an opportunity for the team to show the work they have done on that sprint and allows people involved in the project to see what has been achieved. We work in an open and transparent way so encourage anyone interested in the project to attend the show and tell and ask questions. 
+At dxw, sprints are two weeks long. On the first day of the sprint we facilitate a planning session and at the end of the sprint we finish with a show and tell and retrospective. These sessions involve all members of the development team (developers, designers, user researchers and delivery managers) and the product owner from the client side. Sometimes these sessions include more of the client team.
 
-#### Plan
-Sprints begin with a planning session, where the whole team (dxw and the client) review and prioritise the stories in the backlog. Working together, we discuss the stories that we are prioritising for the current sprint, ensuring that they are well-formed and understood by everyone in the team.
 
-Often this involves writing new stories and updating existing ones, but we try to avoid this becoming the main purpose of the meeting. In our experience, sprint planning is much more useful when the stories are written in advance.
+### Sprint planning
+Sprints begin with a planning session, where the full team (dxw and the client) review and prioritise the stories in the backlog. Working together, we discuss the stories that we are prioritising for the current sprint, ensuring that they are [well-formed](#stories) and understood by the full team.
 
-During this session, developers discuss the effort required to finish each story. We discuss effort so we know whether we have a reasonable amount of stores to work on and we’re confident as a team that we can get through the stories in the backlog.  Sometimes we will estimate stories. We do this based on complexity, not the time we think it will take to finish it. 
+Often this involves writing new stories and updating existing ones, but we try to avoid this becoming the main purpose of the meeting. In our experience, sprint planning is much more useful when the [stories are written in advance](#backlog-grooming).
 
-Once estimated, stories are prioritised by the client and put into the backlog for the sprint. Developers also advise the rest of the team at this point if there are any technical dependencies the client should be aware of.
-By the end of the session, the full team should be confident about the goal of the sprint and what is going to be worked on.
+During this session, developers estimate the effort required to finish each story. We always estimate stories based on complexity, not the time we think it will take to finish it.
 
-#### Inspect and adapt our work 
-At the end of every sprint, a delivery lead facilitates a retrospective where the team discuss how the sprint went. We talk about what went well, what didn't, and what we can do to to improve how we work for the next sprint. These sessions are attended by all the people involved in delivering the sprint along with the client team. We use retros to make sure we acknowledge and continue to do the things that are working well, and also commit to change anything that can be improved.
+Design and development is worked on in parallel during a sprint. Because we design in browser and avoid separating development and user experience work, it's important when giving stories points to think both about the design and the development effort that will be required.
 
-#### Focus on user needs
-At regular intervals the team look through the sprint backlog to re-prioritise and update stories, based on things we've learned during delivery and from user research. Stories that are no longer needed are deleted, stories that may be needed later or are blocked are put on hold (we call this the icebox) and all other stories are re-prioritised for future sprints.
+Once estimated, stories are prioritised by the client and put into the backlog for the sprint. Developers also advise the rest of the team at this point if there are any dependancies the client should be aware of.
 
-We have regular user research playback sessions to ensure the whole team is involved in understanding user needs, feedback from user testing and what iterations means for the users. 
+By the end of this session, the full team should be confident about the goal of the sprint and what is being worked on.
 
-#### User stories
-We document development work that needs to be completed by writing [user stories](https://www.gov.uk/service-manual/agile/writing-user-stories.html).
+### Daily standups
+
+Every morning the delivery manager facilitates a standup. Standups last 5-10 minutes and is for the developers to discuss what they're working on and whether there are any problems or dependencies. If we're not co-located with a client, these happen over Talky or Google Hangout.
+
+### Retrospectives
+At the end of every sprint, the delivery manager facilitates a [retrospective](https://www.gov.uk/service-manual/agile/running-retrospectives.html) where the team can discuss how the sprint went. We talk about what went well, what didn't, and what actions should be taken to improve things for the next sprint. These sessions are attended by all the people involved in delivering the sprint along with the client team.
+
+### Backlog grooming
+At regular intervals the team look through the sprint backlog to reprioritise and update stories, based on things we've learned during delivery and from user research. Stories that are no longer needed are deleted, stories that may be needed later or are blocked move to the icebox and all other stories are reprioritised for future sprints.
+
+### User stories
+We document development work that needs to be completed by writing [user stories](https://www.gov.uk/service-manual/agile/writing-user-stories.html). .
 
 A user story is a succinct explanation of some work that will be done in order to meet the needs of a particular kind of user. They are usually structured into a sentence, of the form:
 
@@ -249,7 +195,7 @@ Each user story will also contain a list of acceptance criteria. Acceptance crit
 For more information about writing good stories, we recommend reading User Stories Applied by Mike Cohn. There is a copy of this book in the dxw library.
 
 
-#### Lifecycle of a story
+### Lifecycle of a story
 <!-- TODO: This section should be an explanation of what happens to a story as it is worked on, focussing on "why" rather than "how" and explaining the philosophy. -->
 
 There are several states that a story has to go through in order to be deployed to production. We use Trello and physical story boards to keep track of which stage a given story is in.
@@ -257,12 +203,12 @@ There are several states that a story has to go through in order to be deployed 
 * **In progress**: A developer has started working on the story, making changes to the product to ensure that each acceptance criterion is met
 * **Awaiting review**: The developer has finished the story and is ready for a second developer to [review](#Code reviews) the technical aspects of the story in a [pull request](#Pull request)
 * **Code review**: The story is being reviewed by the second developer who leaves feedback if the pull request is not ready to be merged and needs further work
-* **dxw/client review**: The two developers have finished the review and the story is now merged and pushed to staging. It is ready for a delivery manager and the client to review against its acceptance criteria
+* **DM/client review**: The two developers have finished the review and the story is now merged and pushed to staging. It is ready for a delivery manager and the client to review against its acceptance criteria
 * **Accepted**: The client has accepted the story and it's ready to deploy to production
 * **Done**: The story is deployed to production
 
 
-### Managing delivery
+## Managing delivery
 >"The delivery manager sets the team up for successful delivery. They remove obstacles, or blockers to progress, constantly helping the team become more self organising. They enable the work a team does rather than impose how it’s done."
 >
 >-- <cite>[Government Digital Service](https://www.gov.uk/service-manual/the-team/delivery-manager.html)</cite>
@@ -274,18 +220,25 @@ Throughout a sprint, delivery managers ensure that agreed process is followed, o
 Outside of these session and standups, they maintain regular communication with the client and the delivery team to respond quickly to challenges as they arise. If priorities change during a sprint, the delivery manager works with the client to understand and plan for the impact of the change.
 
 
-## Products
+# Products
 
-### GovPress
+## GovPress
 GovPress is a product we built to host most of the WordPress websites we build. It also has some things on it that are hosted and maintained by other people.
 
 We built GovPress because clients were frequently asking us for hosting with high availability and high security, but didn't have enough budget to be able to build an appropriate hosting platform for their service. This is fair enough, because they shouldn't have to. We built GovPress to meet this need, and it is now used by most of our clients.
 
 Read more about it at [www.govpress.com](https://www.govpress.com).
 
-## Tickets
+## GovSite
+GovSite is a product we have built to provide a pre-configured WordPress site to clients with simple publishing requirements. It's a theme that we made, and a set of plugins we have curated.
 
-### Basics
+We built GovSite because new prospective clients frequently ask us to build very similar sites to ones we have built before. There's a feature set that is very commonly asked for, but usually required by clients who don't have enough budget to build a proper [Digital by Default](https://www.gov.uk/service-manual/digital-by-default) service. We built GovSite to meet this need: it caters for the things we are most commonly asked for, and is much less expensive than building a site from scratch.
+
+Read more about it at [www.govsite.com](https://www.govsite.com).
+
+# Tickets
+
+## Basics
 We use [Zendesk](https://dxw.zendesk.com) to manage support requests. If you're just getting started, the [Zendesk Introduction](https://support.zendesk.com/hc/en-us/articles/203921213) is your first port of call. After you've read that, ask someone to sit with you and talk you through it, to answer any questions.
 
 Other than for projects you're currently sprinting on, all requests for us to do things must come via tickets. We use tickets to manage requests in order to:
@@ -304,22 +257,22 @@ If a client asks us to do something in person, on the phone or via email, we pol
 
 For these reasons, we do not do any work at all on a client site unless we are on a sprint or working on a relevant ticket. This is really important.
 
-### Support sprints
-We work on tickets by having a developer on a support sprint. Developers are assigned to support for two weeks at a time and work on tickets for the duration of the sprint. If there is a ticket they need another developer to help with, this work is scheduled in.
+## Support sprints
+We work on tickets by having a developer on a support sprint. Developers are assigned to support for two weeks at a time and work on tickets for the duration of the sprint. If there is a ticket they need another developer to help with, this work is scheduled for a Friday.
 
-### Client experience (AKA: ticket principles)
+## Client experience (AKA: ticket principles)
 
-#### Be responsive
+### Be responsive
 Clients expect us to deal with their issues promptly. But they understand that this isn't always possible. They are generally forgiving of the fact that we're sometimes busy, and they understand that some issues are complex and require long investigations.
 
 The thing most clients value above all else is being kept informed of what is going on. The first quality of a good ticket experience is responsiveness: we keep clients informed of what we're doing, even if there hasn't been much progress.
 
-#### Stick to your commitments
+### Stick to your commitments
 It's really important that we do what we say we'll do, and don't promise things we can't deliver. If we're unable to deal with a ticket in good time and leave an update saying we'll work on it tomorrow, we must meet that commitment.
 
 It is doubly bad to fail to meet a commitment and not say anything about it. Responsiveness is always the priority. So if for some reason we couldn't do what we said we'd do, we always respond to say so.
 
-#### Make a good impression
+### Make a good impression
 In tickets as in all things, we are mindful of dxw's [values](#values).
 
 Most clients' routine contact with us is via support tickets. So it's vital that our clients' experience of the support system is a good one, and also that they have a positive experience with us personally.
@@ -334,7 +287,7 @@ In general:
 * If we do become annoyed or frustrated by a ticket, we respond later or speak to a DM about reassigning it.
 
 
-#### Don't over-deliver
+### Don't over-deliver
 Of course, every client would like us to go the extra mile to solve their problem. But they also understand that to do that for them would mean bad service for another client - or that we never get to their issue, because we're too busy gold-plating the solution to someone else's.
 
 While we do everything we can to make sure the client is happy with our solution, we are also mindful of what's practical. We don't do serious bits of development work on tickets, or trial new approaches. We don't play with new tools or sink hours into interesting bugs. We set those things aside, and do them later.
@@ -342,11 +295,11 @@ While we do everything we can to make sure the client is happy with our solution
 The main purpose of a ticket is to take some action that solves the problem, as quickly as possible. Generally speaking, we do the most time-efficient thing that we can. Of several potential solutions that solve the problem, assuming none is a bad one, we do the one which can be implemented the most quickly.
 
 
-### Workflow
+## Workflow
 All tickets that arrive on the helpdesk go through a number of stages in the course of being worked on.
 
 
-#### New tickets
+### New tickets
 
 When a new ticket arrives, it is automatically assigned to the Front-line Support group. All agents in this group receive an email to alert them.
 
@@ -357,7 +310,7 @@ If not, they will assign it to the developer on support. Sometimes tickets are a
 As tickets are arriving, we also think about whether they might be related to other tickets that we've already received. For example, if we get several tickets from different clients about similar-sounding issues, that might be indicative of a wider problem. Or, if a single client sends lots of tickets within a short time, it might be wise to assign a delivery manager to oversee them all and ensure that the requests make sense when considered as a group.
 
 
-#### Assignments
+### Assignments
 
 No matter what group you're in, when a ticket is assigned to you, you will receive an email. The ticket will also appear on your home screen in Zendesk.
 
@@ -375,7 +328,7 @@ If we're replying to a ticket just to update the client, but we still need to ta
 
 If we have taken some action and are now waiting for the client to reply, we set the ticket's status to pending. This will remove it from the list of tickets (until they answer).
 
-#### Pending tickets
+### Pending tickets
 
 Pending tickets are those which we have updated with a question or a potential solution, and which now need to be updated by the client before we can proceed.
 
@@ -388,7 +341,7 @@ Because pending tickets will be auto-closed if there's no reply, it's also impor
 When assigning a ticket to another agent, we do not set it to pending, otherwise they probably won't see it.
 
 
-#### Solving tickets
+### Solving tickets
 
 If we believe that we have solved the issue the client has raised, we submit it as solved.
 
@@ -402,7 +355,7 @@ Some tickets are not raised by clients, but are raised by another agent or by an
 
 Before solving a ticket, we make sure the *How much work was this?* is set to a sensible value.
 
-#### On-hold tickets
+### On-hold tickets
 
 Sometimes a ticket does not need any action imminently but is nonetheless an important issue which we must keep track of. Renewing certificates and domain names in good time is a good example of this kind of task.
 
@@ -411,21 +364,21 @@ In these situations, we turn the ticket into a task and give it a due date, and 
 Only tasks with due dates should be made into on-hold tickets.
 
 
-### Deciding what to work on
+## Deciding what to work on
 
 You are free to work on whichever of your assigned tickets you think is most important. But there are some important things to bear in mind.
 
 
-#### Triage
+### Triage
 
 We all have limited time. We try to spend it wisely. All other things being equal, it is better to spend half an hour solving each of four tickets than to spend two hours on one issue.
 
 
-#### Procrastinating
+### Procrastinating
 
 We don't procrastinate about dealing with difficult tickets. Most of our SLA breaches happen when a complex ticket arrives and is assigned to a busy person. In this situation, it's only natural that we prefer to do other work first. But it is vital that we don't let the hard tickets gather dust while we crack through the easy ones, so we try to be mindful of this bias.
 
-#### Priority
+### Priority
 
 The priority of tickets is important, and we must be biased towards dealing with more urgent tickets before less urgent ones.
 
@@ -437,21 +390,21 @@ Zendesk knows each ticket's age, the time it's been since it was updated, its pr
 
 Each ticket's priority should be reviewed regularly: whenever we update a ticket, we check the priority to make sure it's still right.
 
-### Initial investigation
+## Initial investigation
 
 When we pick up new tickets or are assigned one where no investigation has yet happened, we complete an initial investigation. If you don't have the right skills for the issue or are not familiar enough with the project to know what to do, reassign the ticket to a more appropriate agent, or consult a delivery manager.
 
 It's important that we don't make changes unless we thoroughly understand what we're being asked to do, and are confident that the client understands and has approved of the implications of the change. To that end, there are a few things we do when a new ticket arrives.
 
 
-#### Complete all fields
+### Complete all fields
 
 All the fields on a ticket are important. Early in the process, we fill them in - including the type.
 
 The priority and project fields are especially important. We always review them to make sure that they are correct. dxw's [Service Level Agreement](https://dxw.zendesk.com/hc/en-us/articles/205117695) explains what the different priorities mean.
 
 
-#### Understand the request
+### Understand the request
 
 We make sure that we understand the request that the client is making. When tickets arrive, they do not always describe the issue clearly. There is some [guidance](https://dxw.zendesk.com/hc/en-us/articles/200814655-Tips-for-submitting-tickets) you can send to clients if their tickets are often difficult to understand.
 
@@ -460,14 +413,14 @@ If you're not sure what the client is asking, ask questions. You can call them i
 When you've reached an understanding of the situation the client is in and what they'd like you to do about it, write it on the ticket in an internal note, so that any other agent looking at the ticket has an easier time.
 
 
-#### Replicate the bug
+### Replicate the bug
 
 If the issue is a bug, we replicate the behaviour the client has reported before working on a fix. It's important that we can reliably and repeatably create the conditions necessary for the bug to arise before we start working on it. If we don't do this, we can't tell whether we've fixed the problem.
 
 Sometimes, we find that the steps we need to follow are not exactly the same as those given by the client. If so, add an internal note with your findings.
 
 
-#### Ensure the client has understood and approved the change
+### Ensure the client has understood and approved the change
 
 When presented with a problem, clients don't always ask us to do the most appropriate thing to fix it. Sometimes we can think of a better solution. Sometimes the change the client asks for has some implication that they haven't considered.
 
@@ -476,11 +429,11 @@ Our helpdesk service is advisory, so we're not afraid to suggest alternative app
 If you are in any doubt as to whether the client has understood and approved the change that you are about to make, explain it to them and ask for their explicit approval. It's fine to do this on the phone if that is more convenient, but if you do, update the ticket with a comment what you said and what was agreed.
 
 
-### Managing tickets
+## Managing tickets
 
 There are a few background tasks that we do to ensure that helpdesk work goes smoothly.
 
-#### Suspended tickets
+### Suspended tickets
 
 The work in this section is the responsibility of **Front-line support agents**.
 
@@ -496,7 +449,7 @@ Unauthorised users submitting tickets will not receive any response, so it is im
 
 Zendesk also suspends tickets that it suspects may be spam or autoresponders. It's hard to monitor the contents of the suspended tickets view if it's cluttered. So we clean up the list regularly. We delete anything that doesn't need to be recovered or noted.
 
-#### SLA breaches
+### SLA breaches
 
 The work described in this section is the responsibility of **delivery managers**.
 
@@ -510,7 +463,7 @@ Always remember that all tickets except monitoring issues are subject to the SLA
 
 If you think we have breached the SLA badly, or have breached our contractual SLA, we contact the client to apologise and let them know what we're going to do about it.
 
-#### Sampling
+### Sampling
 
 The work described in this section is the responsibility of **Harry**.
 
@@ -518,7 +471,7 @@ It's important for us to be able to provide good feedback to the team and catch 
 
 If any problems are found with tickets, we give feedback, discuss as a team and change our process if necessary.
 
-#### Following up on bad client feedback
+### Following up on bad client feedback
 
 The work described in this section is the responsibility of **delivery managers**.
 
@@ -529,7 +482,7 @@ However, we do occasionally get feedback that we have not dealt with a ticket we
 We then also think about what feedback could be given to whoever worked on the ticket, whether it would be sensible to discuss the problem as a team and change our process if necessary.
 
 
-### Scope
+## Scope
 
 Clients can use the support service to ask for help with any aspect of the service we provide, including help with using the admin and advice on getting the best out of their site.
 
@@ -547,7 +500,7 @@ But there are some limitations. Under the support service, we do not:
 Finally, there is an overarching principle that we don't do anything on a ticket that is very time consuming or that is objectively a bad idea. If you think you're in this situation, ask a delivery manager for advice.
 
 
-#### Charging for ticket work
+### Charging for ticket work
 
 If you decide that a ticket asks for work to be done which falls outside this scope, then the work is chargeable. In this situation, we reassign the ticket to a delivery manager with an explanation.
 
@@ -555,9 +508,9 @@ It is good to try to think of alternative approaches that we could do under our 
 
 The delivery manager you assign the ticket to will then treat it as a [lead](#leads), and contact the client to make a plan.
 
-## Sales
+# Sales
 
-### Typical projects
+## Typical projects
 
 We make most of our money by researching, designing and building web sites and apps. These are always for public sector organisations. Broadly speaking, they are either informational services ([corporate websites](https://www.judiciary.gov.uk), [campaigns](https://www.greatbusiness.gov.uk), intranets) or transactional services ([making payments, bookings, reporting things](https://www.youtube.com/watch?v=NN5B9rL_Hxs)). Sometimes they're a bit of both.
 
@@ -568,11 +521,11 @@ More directly, we earn money by scheduling people to work on solving problems, f
 We also make some of our money by hosting some of the services that we build, and by selling subscription-based products that are related to the rest of our work.
 
 
-### Leads
+## Leads
 
 Most of our leads arrive via email as a result of recommendations and word-of-mouth. Some arrive via more formal channels like framework agreements or helpdesk tickets. Leads might arrive to anyone's email account. We try to make sure things arrive in the sales email account wherever we can.
 
-When any lead arrives, we record it in [PipelineDeals](https://www.pipelinedeals.com/home) as a *Deal*. However, we also use PipelineDeals to record information about projects we have sold. So, we don't refer to anything in PipelineDeals as a "Deal". We either call it a *lead*, or after it's sold, an *order*.
+When any lead arrives, we record it in [Pipeline Deals](https://www.pipelinedeals.com/home) as a *Deal*. However, we also use PipelineDeals to record information about projects we have sold. So, we don't refer to anything in PipelineDeals as a "Deal". We either call it a *lead*, or after it's sold, an *order*.
 
 We record as much information as we can about leads when they arrive. A lead should always be described in enough detail that someone else in the team could pick it up and work on it if needs be. That means that we always record a sensible name, the details of the organisation and the contact information of the person we're talking to. If they have provided any documents, we upload those into PipelineDeals as well.
 
@@ -580,7 +533,7 @@ Leads go through several stages during their life, to show whether we're waiting
 
 When the process ends, a lead will either be [won](#winning-work) or [lost](#losing-work).
 
-### Qualifying a lead
+## Qualifying a lead
 
 Before we spend too much time thinking about or working on a lead, we need to make sure that the work and the client are a good fit for us, and that we're a good fit for them.
 
@@ -594,7 +547,7 @@ To do this, we:
 
 When we mark a deal as Qualified, we update the summary to ensure that it accurately reflects the client's user needs and vision.
 
-### Budgets
+## Budgets
 
 Clients won't always be happy to talk about their budgets, but [we do need to know](https://medium.com/@monteiro/why-i-need-to-know-your-budget-a61ec864c898). If they absolutely can't tell us, we do our best to guess at what it probably is, based on the information we have.
 
@@ -605,7 +558,7 @@ Where clients have a larger budget than we think they need, we say that too. Thi
 Where a budget is disclosed that's more than we think is necessary, we usually propose a piece of work that uses that budget fully. But we're always open, and tell them that we've done this, and that we'd be delivering more than the minimum. And we're always happy to win a smaller bit of work than the client thought they'd need. We try to structure these proposals so that the extra work is easy to remove.
 
 
-### Sales meetings
+## Sales meetings
 
 Wherever possible, we meet prospective clients before writing a proposal. This is because face-to-face conversation is the most efficient way to communicate, and the projects we bid for are often complex. Often, this meeting is the way we qualify a lead.
 
@@ -624,7 +577,7 @@ This meeting usually involves quite a bit of discussion about the project. In th
 It's important that we use this meeting to find out the information that we need to write a good proposal. But it's just as important to prove our expertise, to deliver value early and to leave the client with a positive first impression.
 
 
-### Proposals and tenders
+## Proposals and tenders
 
 If the project is being tendered via a fixed process (like the Digital Services Framework) we'll respond by filling in a form that the client provides. These forms are not all the same, and the questions vary. If you're involved in this, have a good conversation with someone who's done it before first.
 
@@ -640,7 +593,7 @@ If we're writing a proposal following our own format, you'll have a proposal tem
 There are lots of examples of these proposals that anyone can read if they like.
 
 
-### The shape of a good project
+## The shape of a good project
 
 There aren't any strict rules about what projects we take on, except that the ultimate client must be a public sector organisation. But there are things that make some projects better for us than others. Good projects generally:
 
@@ -651,31 +604,31 @@ There aren't any strict rules about what projects we take on, except that the ul
 * Have a budget sufficient to complete the work to a high standard
 
 
-### Winning work
+## Winning work
 
 When we win work, we mark it as Won in PipelineDeals. We amend the budget, closing date and services sold if necessary. We write to the client to thank them and ask them for a convenient time to meet and start the work. We create invoices in Xero and save them as drafts, so we don't forget to bill them. And we add the project's sprints and other work to Forecast, so that the team can see who's working on what.
 
 
-### Losing work
+## Losing work
 
 When we lose work, we mark it as Lost in PipelineDeals. We write to the client to thank them for their interest and ask them for any feedback they might have. We usually also say that we'd be happy to talk about any future work they might have. We record the main reason we didn't win the work in PipelineDeals along with the detailed feedback.
 
 
-### Administration
+## Administration
 
-There's quite a lot of work involved in given sale, as it moves through the stages of the pipeline. To help manage this, we have tasks in PipelineDeals that are automatically created when leads' statuses change. We can all do things to help this process flow smoothly. Some of us are responsible for particular tasks, which it's important to complete on time. Others will just be in a position to help when they notice an incorrect field, a missing contact or a missing file. We always correct these things when we can.
+There's quite a lot of work involved in given sale, as it moves through the stages of the pipeline. To help manage this, we have tasks in Pipeline Deals that are automatically created when leads' statuses change. We can all do things to help this process flow smoothly. Some of us are responsible for particular tasks, which it's important to complete on time. Others will just be in a position to help when they notice an incorrect field, a missing contact or a missing file. We always correct these things when we can.
 
 
-## Recruitment
+# Recruitment
 
-### Basics
+## Basics
 We use [Workable](https://dxw.workable.com) for recruitment, to help us stay organised and keep in touch with candidates.
 
 Each candidate moves through a number of stages before being offered a job or declined: a screening interview via skype or phone, an interview and a work day. The work day includes another interview.
 
 We feel strongly that it's important to be respectful of candidates time and interest in us, and that their attention is valuable. So we do our best to be responsive, human and open. It's particularly important to give unsuccessful candidates good, thorough feedback about why we haven't made them an offer.
 
-### Job descriptions
+## Job descriptions
 Before we decide to advertise a new job, we write a job description. This helps us make sure we all agree on what we need, and helps candidates to know if their skills are a good for for the job. A good job description has three parts:
 
 1. A description of what the person in this job will do
@@ -684,19 +637,19 @@ Before we decide to advertise a new job, we write a job description. This helps 
 
 There are lots of job descriptions on the website if you need inspiration. It's important for them to be declarative ("The person with this job will...") and as objective as possible. Throughout the rest of the process, we'll use this document to decide what questions to ask in interviews, and to fix activities for the work day. The skills and personal qualities need to be things that we can have a go at understanding by asking questions and observing a candidate's behaviour.
 
-### How we find people
+## How we find people
 The first way we find people is through our networks. We look for people we know. Everyone who is willing tweets about the job and shares it on Facebook and other social networks.
 
 The second way we find people is by advertising. We advertise jobs on StackOverflow, Github, WorkInStartups and Unicorn Hunt. Not all jobs go on all of these boards - we pick whatever seems most appropriate for the job.
 
 The third way we find people is by making sure we're regularly blogging about what we're doing, and being open about our culture, work and process. We accept [general applications](https://www.dxw.com/jobs/general-application/) from people who are interested in dxw but who don't fit an open job.
 
-### Review applications
+## Review applications
 All applications arrive via Workable. We review these applications as a team to decide who to take forward.
 
 An application review is a very quick process. We look at the information given by the candidate and decide if it is likely that the applicant has the skills, experience and personal qualities that we need. If it is likely, we progress them to the next stage.
 
-### Screening
+## Screening
 The purpose of the screening is to:
 
 1. Introduce ourselves and explain a little more about the job and life at dxw
@@ -723,7 +676,7 @@ We avoid making any commitments during this call. Near the end, we explain that 
 
 After the call, you can talk about the candidate with the team if you wish, or just make a decision. If you think it's quite likely that they have the skills, experience and personal qualities that we need, you should take them through to an interview.
 
-### Interviews
+## Interviews
 Candidates who have a successful screen will be offered an interview. This is an hour long with two members of the team.
 
 Before going to an interview, make sure you have:
@@ -745,7 +698,7 @@ If you think the candidate is very likely to have the skills, experience and per
 
 The work day interview is exactly the same as the first interview, but with different members of the team and different questions. Usually, it happens in the first hour of the work day.
 
-### Work day
+## Work day
 
 TODO. This section to cover:
 
@@ -756,7 +709,7 @@ TODO. This section to cover:
 * Discussing the results
 * Offer if we are sure they are right
 
-### Offer, joining and probation
+## Offer, joining and probation
 
 TODO. This section to cover:
 
@@ -768,9 +721,9 @@ TODO. This section to cover:
 * ...more things.
 
 
-## Working arrangements
+# Working arrangements
 
-### Time
+## Time
 Our working hours are 10:00-18:00, Monday to Friday. Some people work different hours by arrangement. Anyone is free to do that as long as their hours of work don't make it hard for other people to get things done. For example, many people arrive earlier than 10:00 and leave earlier, which is generally fine.
 
 We have a short stand-up every morning, where we each tell the whole team about a single thing we will get done that day. The stand-up is at 10:00. If you miss the stand-up, then you are [late](#lateness).
@@ -779,12 +732,12 @@ Most developers have maintenance responsibilities, which they do during [ticket 
 
 We do our very best to work to a [sustainable pace](#sustainable-pace). But sometimes, when we're approaching a firm deadline or a launch, or a client is having an emergency, we work longer hours than normal. From time to time, there's an emergency that means we have to work during unsociable hours to solve the problem. Neither of these happen very often, but they are a normal part of life at dxw.
 
-### Remuneration
+## Remuneration
 dxw will institute a cost of living rise each year from April 2017. The percentage will be set by the CPI Index (https://www.ons.gov.uk/economy/inflationandpriceindices) as of 1st April each year and you will receive your raise in the April payroll.
 
 For any other salary queries, please speak to Harry.
 
-### Holiday
+## Holiday
 We use BreatheHR to manage holiday requests.
 
 If you want to take holiday, first discuss the dates you plan to be away with your team so that they know when you're planning to go. Then request the holiday through BreatheHR.
@@ -794,7 +747,7 @@ We try very hard to make sure that all holiday requests are granted, irrespectiv
 There is more information about dxw's holiday arrangements in your contract of employment.
 
 
-### Sickness
+## Sickness
 If you are sick, you must let us know by 10:00, or as soon as is reasonably practical. Do not come to the office. If you come to the office when sick, you may be sent home again.
 
 If you're sick but able to work, you can work from home. Everyone at dxw should have a laptop, and should generally take it home with them in case it's needed. If you're sick and at home but don't have your laptop, it can be couriered to you.
@@ -807,9 +760,9 @@ We'll also invite you to an absence meeting if you're off sick for more than thr
 
 We will always only consider dismissal after we have exhausted all other reasonable options.
 
-### Parental leave
+## Parental leave
 
-#### Maternity leave
+### Maternity leave
 If you're expecting a child, you’ll probably be entitled to maternity leave and statutory maternity pay (SMP), which is funded by the government. They will pay you 90% of your normal salary for the first six weeks of your maternity leave.
 
 Assuming you are entitled to SMP (almost everyone is), dxw will also pay you 90% of your salary for second six weeks of your maternity leave. This contribution is called Occupational Maternity Pay (OMP). Taken together, this means that you’ll have twelve weeks of leave on 90% of your normal salary.
@@ -818,31 +771,31 @@ To be eligible for OMP, on returning to work you will need to stay at dxw for at
 
 When you know you are pregnant please do tell us as soon as possible, so we can check that your working arrangements are safe for you and also ensure you are paid for time off for antenatal appointments.
 
-#### Paternity leave
+### Paternity leave
 If your partner is having a baby or you are adopting, you’ll probably be eligible for statutory paternity pay and leave.
 
-Statutory paternity leave (SPL) may be taken for one or two weeks in a block (not two separate weeks), between the date of birth and 56 days afterwards. Statutory paternity pay (SPP) is £145.18 per week.
+Ordinary paternity leave (OPL) may be taken for one or two weeks in a block (not two separate weeks), between the date of birth and 56 days afterwards.
 
-If you qualify for SPL and SPP, dxw will instead pay you your normal salary for three weeks of paternity leave. If you want to take more than three weeks of leave you can use [shared parental leave](#shared-parental-leave).
+If you qualify for OPL, we will top it up with an extra week of company paternity leave paid at the same rate as you were paid OPL, giving you three weeks of leave in total.
 
 
-#### Keep in touch (KIT) days
+### Keep in touch (KIT) days
 You have 10 paid KIT days to take during your paternity or maternity leave if you wish to come in for departmental meetings, events or just to spend some time in the office.
 
 Any bank holidays that you miss while on paternity or maternity will be added to your holiday entitlement when you return to work.
 
 
-#### Shared Parental Leave
+### Shared Parental Leave
 If you're having a baby or adopting a child, you may be eligible for [Shared Parental Leave and Pay](https://www.gov.uk/shared-parental-leave-and-pay). If you're interested in taking this up, please talk to Vanessa.
 
 
-### Working from home
+## Working from home
 Generally, we work either at our office or at client sites. But it's usually fine to work from home from time to time, or in order to complete a specific task. If you're working apart from your team, it is essential that you remain contactable and productive, and the onus is on you to be especially communicative.
 
 If you are working from home, you must record this as an absence in BreatheHR. There is a category, "WFH", for this purpose.
 
 
-### Data protection
+## Data protection
 
 Though dxw doesn't control much personal data, our clients generally do. And some of it may be held on sites that we host. Everyone at dxw has a responsibility to keep that data safe, and process it in accordance to the [data protection principles](https://www.gov.uk/data-protection/the-data-protection-act).
 
@@ -855,11 +808,11 @@ In particular, we:
 If you have any questions about data protection, talk to Harry.
 
 
-### Your details
+## Your details
 Please tell us promptly if your name, address, telephone number or next of kin details change.
 
 
-### Disciplinary procedure
+## Disciplinary procedure
 If you do something that we feel constitutes misconduct, or your performance in your job has been poor, we'll talk to you about it. Hopefully, there's just been some misunderstanding, or some problem that's easy to solve and won't recur. Formal action will not be taken without careful investigation of the facts.
 
 If we feel it's appropriate, we may verbally warn you, explaining what has been unacceptable and what you need to do to improve your conduct or performance.
@@ -877,7 +830,7 @@ If your conduct or performance fails to improve following a verbal warning, or i
 If you disagree with the outcome of this hearing, you may appeal against the decision. You must do this in writing. If you do so, your appeal and the circumstances of your case will be reviewed by a member of staff who has not been involved in your case before. That member of staff and the Managing Director will then meet to discuss your case, and will either uphold the outcome or schedule another disciplinary meeting. dxw's decision following that meeting will be final.
 
 
-### Grievances
+## Grievances
 If you have a grievance about your employment or a complaint about another member of staff, talk to the Managing Director as soon as possible.
 
 The first step is to discuss the problem to see if it can be quickly resolved.
@@ -887,7 +840,7 @@ If this discussion does not satisfactorily resolve the problem, you should put d
 If you disagree with this response or the matter remains unresolved, you may appeal by respond in writing. A further meeting will be arranged and the Managing Director will again respond in writing. This decision will be final.
 
 
-### Use of personal devices at work
+## Use of personal devices at work
 Most of us use at least one personal device as part of our work, because it's more convenient than carrying lots of devices around. However, no one is obligated to use a personal device for work. If you need a dxw-provided phone, tablet or other device, please ask for one.
 
 Anyone who does use a personal device must take reasonable care to ensure that it cannot compromise dxw's security. This includes implementing prudent security measures, being mindful that your personal devices could be targeted as part of an attack on dxw or its clients. For example, you might receive an email to your personal email address designed to trick you into revealing a work-related password.
@@ -904,7 +857,7 @@ Exactly what security measures are prudent may vary depending on the device and 
 If you need to use a personal device but cannot take these sorts of measures, you should get permission first.
 
 
-### Expenses
+## Expenses
 From time to time, some of us spend our own money at work. Most often, this is things like:
 
 * Train fares for unexpected travel
@@ -921,7 +874,7 @@ Wherever possible, it's best to check that expenses can be reclaimed before incu
 We manage expenses using Xero. For more information about how to do this, see the [guide on claiming expenses]()
 
 
-### The buddy system
+## The buddy system
 The buddy system is the main way we help each other to perform well and improve our skills. During your first couple of months at dxw, as you get to know the team, you should choose someone and ask them to be your buddy.
 
 As soon as you have a buddy, you'll meet regularly with them to talk about how you're doing. You can talk about things you'd like to improve, problems you're having or new things you'd like to do. After you've discussed what you want to achieve, you'll decide together how best to go about it. In your regular meetings, you'll talk about what's working well and what's not, and decide if you need to change something.
@@ -932,22 +885,22 @@ The buddy system is there to help us all improve, to make sure we're doing the r
 
 There are a two main ideas that underpin this system.
 
-#### We are each responsible for our own improvement
+### We are each responsible for our own improvement
 Before this system, we had regular performance reviews. They were supposed to be quarterly but generally ended up being annual. They didn't work very well, and were very top-down. We don't think this is the right way.
 
 We prefer to assume that everyone wants to improve, and will do so given the time and space to work on it. The buddy system is there to provide a set of prompts to ensure that this happens, and an explicit time to talk about it.
 
-#### It's best to be open
+### It's best to be open
 Trying to improve things in secret is a missed opportunity to get help from others. We may each be responsible for our own improvement, but we're also a team: we should help each other. Recording the things we're working on with the buddy Trello is an unintrusive, quick way to ensure that everyone else knows too.
 
 
-### Calendars and documents
+## Calendars and documents
 We use Google Apps for Work to manage calendars, write and share documents. There is a dxw folder where we share most of the things we write. If you can't see it when you log in to Google Drive, you'll need to ask someone else to send you the link, and then click "Add to drive".
 
 When we write new things, we try to save them in a sensible folder within the existing structure.
 
 
-### Protective marking scheme
+## Protective marking scheme
 Some information that we have is confidential. We use a protective marking scheme so that everyone understands how to handle this material, and who they're allowed to disclose it to. All of the documents and data we hold will fall into one of the categories below.
 
 * __Management-in-Confidence__: internal documents whose circulation within dxw needs to be restricted.
@@ -961,7 +914,7 @@ We take care to handle all data carefully, but when information is protectively 
 
 Because we value openness highly, we take care not to over-classify information. We don't protectively mark information unless there is a good reason to keep it confidential.
 
-#### Management-in-confidence
+### Management-in-confidence
 This category is used only for dxw's most confidential information. For example, employment records, salary details and company strategy documents.
 
 Do not share any information with this marking with any person, whether internal or external to dxw.
@@ -978,12 +931,12 @@ This information:
   * Communicated only when encrypted or via an encrypted connection, unless emailed from one dxw.com address to another
 
 
-#### Company Confidential
+### Company Confidential
 This category is used for information which should not be communicated outside dxw. For example, details about how we operate security controls or internal discussions about client work.
 
 Exactly the same controls apply to this information as detailed under Management-in-confidence, with the exception that Company Confidential information can be shared within the dxw as required.
 
-#### Client Confidential or Commercial in Confidence
+### Client Confidential or Commercial in Confidence
 This category is used for information which is disclosed to a limited group of people external to dxw, or which is unclassified information we have received from clients. For example, dxw proposals, presentations for pitches or planning documents.
 
 Unless otherwise specified, all unclassified information we receive from clients falls into this category.
@@ -999,12 +952,12 @@ This information:
 
 As a rule of thumb, label a document as Client Confidential if it mostly contains the client's confidential information, or Commercial in Confidence if it mostly contains dxw's.
 
-#### Unclassified
+### Unclassified
 Anything not captured by the sections above is unclassified. Examples are external marketing material, general emails and letters.
 
 Beyond a general duty to treat information carefully, unclassified information is not subject to any specific restrictions.
 
-### Email Signature
+## Email Signature
 Name
 Job Title
 name@dxw.com
@@ -1014,9 +967,9 @@ Mobile - if you’re comfortable to share
 www.dxw.com :: 0345 2577520 :: @dxw
 helping public sector teams to make good technology decisions and build better services
 
-### Benefits
+## Benefits
 
-#### Pensions
+### Pensions
 dxw provides a pension which is operated by Aviva. Once you have passed your 3 month check in, you will be auto enrolled into the scheme, receive details by post of the necessary employer/employee contributions and have the option to set your percentage or opt out.
 
 dxw will match any contribution up to 5%. 
@@ -1026,29 +979,27 @@ Your contribution will be relief at source, with 0.8 deducted from your monthly 
 For more details on Relief at Source, please visit the [Aviva website](
 https://www.aviva.co.uk/retirement/news-views/report/making-sense-of-tax-relief-on-pension-payments/).
 
-#### Childcare Vouchers
+### Childcare Vouchers
 dxw have a Childcare vouchers scheme with Busy Bees Benefits www.busybeesbenefits.com/childcare
 For more information, check BreatheHR or let Vanessa know you would like to join the scheme.
 
-#### Conference Perk
-The conference perk is for people to have some time away from the office, come back refreshed, and improve health and wellbeing. It is open to everyone at dxw who has successfully passed their probation.
+### Conference Perk
+It's important to cultivate interests outside work, and we believe that investing time in this brings benefits to dxw.
 
-You'll be allocated an annual budget of £600 (and 2 days off work) to use as you see fit. You can top up your time off with existing annual leave allowance if necessary. dxw pays for the event ticket, travel, and accommodation, but you will need to cover your own costs for food, drink and supplementary equipment.
+So, in addition to going to conferences relevant to our roles, everyone who works at dxw is able to attend one conference per year about anything that they'd like.
 
-No restrictions regarding the type of event or where, as long as it’s within budget. If appropriate, it’d be great if you would talk about your experience in a blog post. 
+On request, dxw will cover the cost of a conference ticket, travel and accommodation, anywhere in reach of a budget flight.
 
-It's ok for members of the team to go together, but Head of Delivery gets final say if there's an impact on work, as with any other leave.
-
-#### Cycle to work scheme
+### Cycle to work scheme
 dxw operates a cycle-to-work scheme, which may allow you to purchase a bicycle at reduced cost. If you would like to take this up, speak to Vanessa.
 
-#### Book purchase
+### Book purchase
 If there is a book relevant to your work that you would like to read, let Vanessa or Leanne know and they will buy it for the library.
 
 
-## Sharing
+# Sharing
 
-### Events
+## Events
 We all go to work-related events and conferences, sometimes for work and sometimes in our personal time. No matter what capacity you're attending an event in, you are a representative of dxw. What you say and do will influence the way people think about the company as well as about you. It's important, both personally and for the business, that you make a positive impression.
 
 This section is here to share what we've learned about how to make the most of these sorts of events.
@@ -1058,7 +1009,7 @@ This section is here to share what we've learned about how to make the most of t
 - **Talk about work**: but don’t be pushy. People will always usually ask “what do you do” or “where do you work” so take that opportunity to talk about dxw positively. Talk about the things you’re doing, what you’re finding interesting, and things relevant to the situation. Just don’t go on about yourself, ask people about their work and be interested in what they have to say.
 - **If we’re hiring**: talk to even more people than normal! Especially if you’re at an event where the attendees might be relevant for the job. But again, don’t be pushy. Talk to people, join conversations, and if appropriate, mention that we’re hiring and they might be a good candidate. Just don’t let it be the only thing you talk about.
 
-#### Speaking at events
+### Speaking at events
 Speaking at events is a great opportunity to represent dxw. There are a couple of ways this can be valuable.
 
 If it’s an event around your personal speciality (front-end development, sysops, UX etc), feel free to stick to any personal “branding”, slides, or talk style you might have already developed. At the start of your talk however, please introduce yourself as being from dxw, introduce what the company does, and what you do at the company. Then continue with your talk.
@@ -1070,7 +1021,7 @@ In either situation, if we’re hiring, mention this towards the end of the talk
 The most important thing to remember is that you'll leave the best impression - personally and for the company - if your talk is interesting, useful and well-presented. It takes time to make talks that work well. If you need help, advice or time to prepare, don't be afraid to ask for it. It's also good to blog after the event, to talk about your experience and what you learned. If you need time to be set aside, talk to a Delivery Manager and see what's possible.
 
 
-### Blog
+## Blog
 At dxw, we all write blog posts regularly.
 
 We blog because want to share what we're doing and what we're learning about tech and government with the digital community. When we're hiring, we also want potential new staff to be able to to get to know us a bit beforehand. Writing introductory blog posts and following up with communicating about the work we do helps people gauge what kind of team we are. We also work in the open and are keen to share our knowledge, express our values and get people thinking about how to improve services for the public sector. One of the ways we do this is by encouraging feedback as much as honing our own views on certain topics.
@@ -1086,6 +1037,6 @@ The process for writing a new post is:
 - When ready, add the post to WordPress as a draft and agree a publication time with the team
 - Write a tweet to promote your post and add it to Buffer, scheduled to go out when the post is public
 
-### Twitter
+## Twitter
 
-### Facebook
+## Facebook
