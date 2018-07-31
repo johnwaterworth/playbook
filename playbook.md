@@ -1878,6 +1878,15 @@ say if there's an impact on work, as with any other leave.
 dxw operates a cycle-to-work scheme, which may allow you to purchase a bicycle
 at reduced cost. If you would like to take this up, speak to Vanessa.
 
+#### Eyecare vouchers
+
+dxw provides eyecare for the team via a voucher system run by ASE Corporate Eyecare Ltd and Boots.
+
+Details of what the wellbeing voucher offers can be found here: 
+https://www.eyecareplans.co.uk/corporate-eyecare/eyecare-for-wellbeing/
+
+To apply for a wellbeing eyecare voucher, click this link and submit a request: https://gw.eyecareplans.co.uk/dxwe12q2415d3df
+
 #### Book purchase
 
 If there is a book relevant to your work that you would like to read, let
