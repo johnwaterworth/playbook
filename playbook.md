@@ -1439,6 +1439,8 @@ as of 1st April each year and you will receive your raise in the April payroll.
 
 For any other salary queries, please speak to Harry.
 
+For any other salary queries, please speak to your head-of or the Managing Director.
+
 ### Holiday
 
 We use BreatheHR to manage holiday requests.
